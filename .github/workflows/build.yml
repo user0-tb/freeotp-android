@@ -13,5 +13,10 @@ jobs:
 
     - name: Run build with Gradle Wrapper
       run: ./gradlew build -x lint
+    - name: 📦 Upload APK File
+      uses: actions/upload-artifact@v3.1.3
+      with:
+        name: app_debug
+        path: app/build/outputs/apk/debug/
 
  
