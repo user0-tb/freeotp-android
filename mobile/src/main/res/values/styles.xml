@@ -20,7 +20,7 @@
    -->
 
 <resources>
-    <style name="FreeOTP.Purple.NoActionBar" parent="FreeOTP.Purple">
+    <style name="FreeOTP.Purple.NoActionBar" parent="Base.FreeOTP">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
